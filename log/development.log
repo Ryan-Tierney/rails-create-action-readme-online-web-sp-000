@@ -83,3 +83,11 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 44ms (Views: 38.4ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/posts" for 173.18.197.157 at 2020-07-06 18:39:52 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.2ms)
+
+
